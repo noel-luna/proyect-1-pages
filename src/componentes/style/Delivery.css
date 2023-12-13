@@ -1,0 +1,29 @@
+.delivery{
+    display: flex;
+    justify-content: center;
+    background: #fde9cc;
+}
+.cont-target{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont-target h1{
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+    color: #421212;
+}
+.cont-target p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.enlace-img img{
+    width: 200px;
+    height: 100px;
+}
+ li{
+    margin: 10px;
+ }

@@ -1,0 +1,45 @@
+.cont-perfil{
+    width: 100%;
+    height: auto;
+    background: #fde9cc;
+}
+.perfil-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.perfil-cards img{
+    width: 250px;
+    height: 400px;
+
+}
+.perfil-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.perfil.info{
+    width: 50%;
+    display: flex;
+}
+.title-lan{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: #421212;
+    text-decoration:underline;
+}
+.text-info{
+    font-size: 20px;
+    color: #421212;
+}
+h1{
+    font-size: 30px;
+}
+
+.face-book{
+    color: #421212;
+    width: 30px;
+    height: 30px;
+}

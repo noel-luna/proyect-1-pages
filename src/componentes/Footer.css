@@ -1,0 +1,44 @@
+.footer{
+    background: #421212;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: #ffF;
+}
+.foot-icon{
+    height: 100px;
+    margin: 0 15px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    margin: 0 10px;
+}
+
+.face{
+    color: #ffF;
+    width: 25px;
+    height: 25px;
+}
+
+
+.text-nom{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+
+.text-res{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+.text-reset{
+    text-decoration: none;
+    color: #ffF;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}

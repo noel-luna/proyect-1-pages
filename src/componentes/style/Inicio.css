@@ -1,0 +1,84 @@
+.cont-caroucel{
+    display: flex;
+    justify-content: center;
+    background: #ffffa6;
+    margin: 0;
+    box-sizing: border-box;
+}
+.caroucel{
+    width: 1280px;
+    height: 600px;
+    margin: 50px auto 0;
+    overflow: hidden;
+
+}
+.caroucel .ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    height: 600px;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+.cont-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.cont-img img{
+    width: 800px;
+    height: 600px;
+}
+
+.text-ini{
+    position: absolute;
+    text-align: center;
+    padding: 0 250px;
+    top: 125px;
+    left: 40%;
+    color: #421212;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    background: #f6d6a5;
+    padding: 20px;
+}
+
+@keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+@media(max-width: 1023px){
+    .caroucel{
+        width: 100%;
+    }
+
+    .text{
+        top:50px;
+        padding:0 25px;
+    }
+
+}
+
+@media(max-width: 767px){
+    .caroucel{
+        width: 100%;
+    }
+
+    .text{
+        top:50px;
+        right: 50%;
+        padding:0 50px;
+    }
+
+}

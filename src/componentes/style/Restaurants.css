@@ -1,0 +1,47 @@
+.container-map{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #fde9cc ;
+}
+
+.cont-rest{
+    
+    background: #fff;
+    width: 500px;
+    height: 120px;
+    margin: 20px 10px;
+    border-radius: 30px;
+}
+
+.title-map{
+    font-size: 20px;
+    font-family:cursive;
+    font-weight: 800;
+    margin: 10px 20px ;
+    color: #421212;
+}
+
+.direx{
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 600;
+    margin: 0 20px;
+    color: #421212;
+}
+
+.btn-map{
+    border: none;
+    margin: 5px 0 0 10px;
+    color: rgb(231, 6, 6);
+    padding: 0;
+}
+
+.btn-map:hover{
+    background: transparent;
+    color: red;
+    margin: 0;
+}
